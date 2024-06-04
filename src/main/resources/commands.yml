@@ -1,0 +1,5 @@
+command-version: 1
+
+give: "bank.command.give"
+set: "bank.command.set"
+take: "bank.command.take"

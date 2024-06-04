@@ -1,0 +1,31 @@
+#[currency-id]:
+#  name: # Display name of currency
+#  prefix: # Currency prefix
+#  data-type:
+#    DECIMAL: display currency amount as decimal such as 10.15, 24.12
+#    INTEGER: display currency amoutn as integer such as 10, 24, 50
+#  icon:
+#    item:
+#    texture: If you want to use custom head, set item to PLAYER_HEAD
+#             and search on https://minecraft-heads.com/ and copy Minecraft URL
+dollar:
+  name: "&aDollar"
+  prefix: "$"
+  tax: '10%'
+  icon:
+    item: "PLAYER_HEAD"
+    texture: "9f262870866e361757ed8dcfabd103ebd64d5738455d0c929b266274e7c4c7dc"
+gold:
+  name: "&eGold"
+  prefix: "G"
+  tax: '3%'
+  icon:
+    item: "PLAYER_HEAD"
+    texture: "ebda5f31937b2ff755271d97f01be84d52a407b36ca77451856162ac6cfbb34f"
+credit:
+  name: "&6Credit"
+  prefix: "€"
+  tax: '5%'
+  icon:
+    item: "PLAYER_HEAD"
+    texture: "cb067ae612d5256a24ccfc74c11814f01962b4d81817a618134b45f36fe6fcb3"

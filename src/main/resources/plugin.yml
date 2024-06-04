@@ -1,0 +1,7 @@
+name: GBank
+version: '${project.version}'
+main: com.github.xnaut97.gbank.core.GBankPluginImpl
+api-version: '1.16'
+permissions:
+  bank.command.view.other:
+    default: op

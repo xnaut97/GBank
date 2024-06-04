@@ -1,0 +1,20 @@
+lang-version: 1
+
+empty-player: "&cPlease type a specific player!"
+empty-currency: "&cPlease type a specific currency"
+empty-amount: "*cPlease type a specific amount"
+invalid-amount: "&cAmount must be a number!"
+negative-amount: "&cAmount must greater than 0!"
+player-not-found: "&cCould not found player with name @player-name@"
+currency-not-found: "&cCould not found currency with id @currency-id@!"
+no-command-permission: "&cYou don't have permission to access!"
+not-enough-to-pay: "&cYour balance is not enough to pay!"
+
+pay-success:
+  sender: "&6Gave &a@amount@@currency-prefix@ &6to player &a@player-name@"
+  receiver:
+    online: "&6You received &a@amount@@currency-prefix@ &6from player &a@player-name@"
+    re-login: "&6You received &a@amount@@currency-prefix@ &6from player &a@player-name@ &6while offline."
+give-success: "&6Gave &a@amount@@currency-prefix@ &6for player &a@player-name@"
+take-success: "&6Take &a@amount@@currency-prefix@ &6from player &a@player-name@"
+set-success: "&6Set &a@player-name@ &6balance to &a@amount@@currency-prefix@"

@@ -1,0 +1,25 @@
+config-version: 1
+
+# Reward for online player
+online-reward:
+  toggle: true
+  interval: '1m'
+  currencies:
+    dollar: 10
+    credit: 20
+
+database:
+  toggle: true
+  # Table will be created when plugin is loaded
+  table-name: 'user'
+  username: 'root'
+  password: ''
+  name: 'gbank'
+  host: 'localhost'
+  port: 'default'
+  # Connection pool config
+  pool:
+    max-pool-size: 10
+    timeout: 5000
+    idle-timeout: 600000
+    max-life-time: 1800000
